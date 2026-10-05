@@ -5,7 +5,7 @@
 #SBATCH --error=dropout_error.err
 #SBATCH --partition=dziobas
 #SBATCH --nodes=1
-#SBATCH --tasks-per-node=40
+#SBATCH --tasks-per-node=1
 #SBATCH --time=20:00:00
 
-python sprawdzenie.py
+python 1.2_Przypomnienie.py
